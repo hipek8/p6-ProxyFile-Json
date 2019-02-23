@@ -1,0 +1,19 @@
+{
+  "authors" : [
+    "Pawe\u0142 Szulc"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ "JSON::Class" ],
+  "description" : "blah blah blah",
+  "license" : "Artistic-2.0",
+  "name" : "ProxyFile::JSON",
+  "perl" : "6.c",
+  "provides" : {
+    "ProxyFile::JSON" : "lib/ProxyFile/JSON.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
