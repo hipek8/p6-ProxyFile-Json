@@ -3,8 +3,10 @@
     "Pawe\u0142 Szulc"
   ],
   "build-depends" : [ ],
-  "depends" : [ "JSON::Class" ],
-  "description" : "blah blah blah",
+  "depends" : [
+    "JSON::Class"
+  ],
+  "description" : "save and load object to/from JSON file. Useful for quick command line tools that want to preserve state.",
   "license" : "Artistic-2.0",
   "name" : "ProxyFile::JSON",
   "perl" : "6.c",
@@ -12,7 +14,7 @@
     "ProxyFile::JSON" : "lib/ProxyFile/JSON.pm6"
   },
   "resources" : [ ],
-  "source-url" : "",
+  "source-url" : "https://github.com/hipek8/p6-ProxyFile-Json.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.1"

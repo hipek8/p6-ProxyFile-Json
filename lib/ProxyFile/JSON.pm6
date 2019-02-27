@@ -27,7 +27,7 @@ multi method load(IO::Path $file) {
 
 =head1 NAME
 
-ProxyFile::JSON - save and load object to/from JSON file
+ProxyFile::JSON - save and load object to/from JSON file. Useful for quick command line tools that want to preserve state.
 
 =head1 SYNOPSIS
 
@@ -40,9 +40,11 @@ ProxyFile::JSON - save and load object to/from JSON file
 
 =head1 DESCRIPTION
 
-ProxyFile::JSON extends JSON::Class role by providing methods to load or save to/from file.
+ProxyFile::JSON extends JSON::Class role by providing methods to load and save to/from file.
 
-File doesn't have to exist before either loading or saving. If file doesn't exist default `new` constructor is called without arguments.
+File doesn't have to exist prior to loading or saving. If file doesn't exist default `new` constructor is called without arguments.
+
+Some built-in types don't serialize too well so try to avoid them. Also be careful with inherited types.
 
 =head1 AUTHOR
 
